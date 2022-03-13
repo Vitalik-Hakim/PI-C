@@ -269,8 +269,8 @@ for pis in range(lenA):
         pass
         correct1 = True
     else:
-        SpeakText("{} is incorrect! :(\n".format(user1))
-        print("{} is incorrect! :(\n".format(user1))
+        SpeakText("{} is incorrect! \n".format(user1))
+        print("{} is incorrect! \n".format(user1))
         correct1 = False
         break
 
@@ -281,8 +281,8 @@ for pis in range(lenB):
         correct2 = True
         pass
     else:
-        print("{} is incorrect! :(\n".format(user2))
-        print("{} is incorrect! :(\n".format(user2))
+        print("{} is incorrect! \n".format(user2))
+        print("{} is incorrect! \n".format(user2))
         correct2 = False
         break
 
