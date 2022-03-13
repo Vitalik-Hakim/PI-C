@@ -1,5 +1,3 @@
-
-from word2number import w2n
   
 num_dict = {
     'one': '1',
